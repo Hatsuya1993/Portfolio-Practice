@@ -2,3 +2,17 @@
     font-family: 'Red Rose',
         cursive;
 }
+
+/* Start of #nav */
+
+.nav-link {
+    transition: all 0.3s linear;
+}
+
+.nav-link:hover {
+    background-color: #28A745;
+    color: white;
+    border-radius: 10px;
+}
+
+/* End of #nav */
