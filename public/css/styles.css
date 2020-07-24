@@ -16,3 +16,73 @@
 }
 
 /* End of #nav */
+
+/* Start of caro-img2 */
+
+.caro-img2 {
+    height: 80vh;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(60, 179, 113, 0.5), white), url("https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        )
+}
+
+/* End of caro-img2 */
+
+
+/* Start of caro-img2-content */
+
+.caro-img2-content {
+    height: 80vh;
+}
+
+/* End of caro-img2-content */
+
+
+/* End of caro-img1 */
+
+.caro-img1 {
+    height: 80vh;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(60, 179, 113, 0.5), white),
+        url("https://images.pexels.com/photos/2087391/pexels-photo-2087391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        )
+}
+
+
+/* End of caro-img1 */
+
+/* Start of caro-img1-content */
+
+.caro-img1-content {
+    height: 80vh;
+}
+
+/* End of caro-img1-content */
+
+
+/* End of caro-img3 */
+
+.caro-img3 {
+    height: 80vh;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(60, 179, 113, 0.5), white),
+        url("https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        )
+}
+
+
+/* End of caro-img3 */
+
+/* Start of caro-img3-content */
+
+.caro-img3-content {
+    height: 80vh;
+}
+
+/* End of caro-img3-content */
