@@ -86,3 +86,63 @@
 }
 
 /* End of caro-img3-content */
+
+/* Start of about1 */
+
+.about1 {
+    background-image: linear-gradient(to right, rgba(60, 179, 113, 0.5), white),
+        url("https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        )
+}
+
+/* End of about1 */
+
+/* Start of about11 */
+
+.about11 {
+    border: 5px solid #28A745;
+
+}
+
+/* End of about11 */
+
+/* Start img-edit */
+
+.img-edit {
+    height: 300px;
+}
+
+/* End img-edit */
+
+/* Start img-cont */
+
+.img-cont {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-cont:hover .glass {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.img-cont:hover img {
+    opacity: 0.3;
+}
+
+/* End img-cont */
+
+/* Start glass */
+
+.glass {
+    position: absolute;
+    top: -35%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 0.5s linear;
+}
+
+
+
+/* End glass */
