@@ -146,3 +146,101 @@
 
 
 /* End glass */
+
+/* Start current-cont1 */
+
+.current-cont1 {
+    position: relative;
+}
+
+/* End current-cont1 */
+
+/* Start current1 */
+
+.current1 {
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 3px solid white;
+    transform: rotate(-20deg);
+    transition: all 0.5s linear;
+}
+
+.current1:hover {
+    transform: rotate(0);
+    z-index: 1;
+}
+
+/* End current1 */
+
+/* Start current2 */
+
+.current2 {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 3px solid white;
+    transform: rotate(-10deg);
+    transition: all 0.5s linear;
+}
+
+.current2:hover {
+    transform: rotate(0);
+    z-index: 1;
+}
+
+/* End current2 */
+
+/* Start current3 */
+
+.current3 {
+    width: 60%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 3px solid white;
+    transform: rotate(5deg);
+    transition: all 0.5s linear;
+}
+
+.current3:hover {
+    transform: rotate(0);
+    z-index: 1;
+}
+
+/* End current3 */
+
+/* Start current4 */
+
+.current4 {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 3px solid white;
+    transform: rotate(25deg);
+    transition: all 0.5s linear;
+}
+
+.current4:hover {
+    transform: rotate(0);
+    z-index: 1;
+}
+
+/* End current4 */
+
+/* Start row */
+
+.row {
+    height: 500px;
+}
+
+@media (max-width: 500px) {
+    .row {
+        height: 800px;
+    }
+}
+
+/* End row */
