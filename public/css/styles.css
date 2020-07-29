@@ -1,7 +1,6 @@
 * {
   font-family: "Red Rose", cursive;
 }
-
 /* Start of #nav */
 
 .nav-link {
@@ -92,6 +91,7 @@
 
 .about11 {
   border: 5px solid #28a745;
+  /* height: 75%; */
 }
 
 /* End of about11 */
@@ -241,3 +241,54 @@
 }
 
 /* End img-coffee */
+
+/* Start contact-details */
+
+.contact-details1 {
+  transform: skew(-5deg);
+}
+
+.contact-details {
+  height: 40vh;
+  background: url("https://images.pexels.com/photos/2007401/pexels-photo-2007401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: skew(5deg);
+}
+
+@media (max-width: 500px) {
+  #contact {
+    margin-top: 700px;
+  }
+}
+
+/* End contact-details */
+
+/* Start contact-button */
+
+.contact-button {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+/* End contact-button */
+
+/* Start contact-input */
+
+.contact-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+/* End contact-input */
+
+/* Start #about */
+
+#about {
+}
+
+/* End #about */
