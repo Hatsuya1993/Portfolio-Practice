@@ -286,9 +286,34 @@
 
 /* End contact-input */
 
-/* Start #about */
+/* Start values-content */
 
-#about {
+.values-content {
+  position: relative;
 }
 
-/* End #about */
+.values-content i {
+  transition: all 0.5s linear;
+}
+
+.values-content i:hover {
+  transform: scale(1.2);
+}
+
+.values-content i:hover + .values-content1 {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* End values-content */
+
+/* Start values-content1 */
+
+.values-content1 {
+  position: absolute;
+  width: 1%;
+  left: 53%;
+  bottom: 70%;
+}
+
+/* End values-content1 */
