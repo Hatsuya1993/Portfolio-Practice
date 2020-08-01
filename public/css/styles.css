@@ -372,3 +372,24 @@
 }
 
 /* End #comrades */
+
+/* Start reviews-img-background */
+
+.reviews-img-background {
+  background: linear-gradient(to right, rgba(60, 179, 113, 0.5), white),
+    url("https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+/* End reviews-img-background */
+
+/* Start reviews-img-background-content */
+
+.reviews-img-background-content {
+  width: 10%;
+  margin-top: 10%;
+}
+
+/* End reviews-img-background-content */
